@@ -44,27 +44,37 @@
       </div>
     </header>
 
-    <section id="home" class="relative flex items-center justify-center h-screen bg-cover bg-center" style="background-image: url('site-logo.jpg'); background-size: 25%; background-repeat: no-repeat; background-position: center;">
-        <div class="absolute left-1/2 top-[15%] transform -translate-x-1/2 text-center">
-          <svg viewBox="0 0 500 250" class="w-[90vw] max-w-[500px] h-auto mx-auto">
-            <defs>
-              <path id="curve" d="M 50,250 A 200,200 0 0,1 450,250" fill="transparent"></path>
-            </defs>
-            <text font-size="40" font-family="Oswald" fill="black" font-weight="bold">
-              <textPath href="#curve" startOffset="50%" text-anchor="middle">Громадська організація</textPath>
-            </text>
-          </svg>
-        </div>
+    <section
+  id="home"
+  class="relative flex flex-col items-center justify-center h-screen bg-cover bg-center"
+  style="background-image: url('images/site-logo.jpg'); background-size: 25%; background-repeat: no-repeat; background-position: center;"
+>
+  <div class="absolute left-1/2 top-[15%] transform -translate-x-1/2 text-center w-[90vw] max-w-[500px]">
+    <svg viewBox="0 0 500 250" class="w-full h-auto mx-auto">
+      <defs>
+        <path id="curve" d="M 50,250 A 200,200 0 0,1 450,250" fill="transparent"></path>
+      </defs>
+      <text font-size="40" font-family="Oswald" fill="black" font-weight="bold">
+        <textPath href="#curve" startOffset="50%" text-anchor="middle">Громадська організація</textPath>
+      </text>
+    </svg>
+  </div>
 
-        <div class="absolute left-1/2 bottom-[7%] transform -translate-x-1/2 text-center">
-            <h2 class="text-4xl md:text-6xl font-[Oswald] text-red-600 font-bold mb-9 drop-shadow-lg">
-                Пашаєв Boxing
-            </h2>
-            <a href="#about" class="px-10 py-5 bg-red-600 hover:bg-red-700 text-white rounded-full text-lg transition-all duration-300 shadow-md mt-12">
-                Дізнатись більше
-            </a>
-        </div>
-    </section>
+  <div
+    class="absolute left-1/2 bottom-[7%] transform -translate-x-1/2 text-center px-4 w-[90vw] max-w-[300px]"
+  >
+    <h2 class="text-4xl md:text-6xl font-[Oswald] text-red-600 font-bold mb-9 drop-shadow-lg">
+      Пашаєв Boxing
+    </h2>
+    <a
+      href="#about"
+      class="block px-8 py-4 bg-red-600 hover:bg-red-700 text-white rounded-full text-lg transition-all duration-300 shadow-md mx-auto max-w-xs"
+    >
+      Дізнатись більше
+    </a>
+  </div>
+</section>
+
     <section id="about" class="py-16 bg-black">
         <div class="container mx-auto px-4">
           <h2 class="text-3xl md:text-4xl font-[Oswald] font-bold text-center mb-12 text-white">
